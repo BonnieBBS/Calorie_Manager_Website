@@ -1,0 +1,58 @@
+<html>
+	
+	<head>
+		<title> Advice Form </title>
+	</head>
+	
+	<body>
+		<h1> Advice </h1>
+		<em> We appreciate your suggestions very much! </em> :D
+               
+		<p>
+			<input type="hidden" name="recipient" value="bonniebbs.bp@gmail.com">
+			<input type="hidden" name="subject" value="Advice Form">
+			<input type="hidden" name="redirect" value="Homepage.html">
+		</p>
+		
+		<p>
+			<label>
+				Your Email Address: 
+				<input mail="mail" type="text" size="30"> 
+			</label>
+		</p>
+		
+		<p>
+			<br> What functions do you like? <br>
+			<input name="functionLiked" type="checkbox" value="foodIntroduction"> Food Introduction <br>
+			<input name="functionLiked" type="checkbox" value="foodProperties"> Food Properties <br>
+			<input name="functionLiked" type="checkbox" value="calorieCalculation"> Calorie Calculation <br>
+			<input name="functionLiked" type="checkbox" value="mealRecommandation"> Meal Recommandation <br>
+		</p>
+		
+		<p>
+			Rate our app
+			<select name="rating">
+				<option selected="selected">5</option>
+				<option> 4 </option>
+				<option> 3 </option>
+				<option> 2 </option>
+				<option> 1 </option>
+			</select>
+		</p>
+		
+		<p>
+			Comments <br>
+			<textarea name="comments" rows="5" cols="40"> </textarea>
+		</p>
+		
+		<p>
+			<input type="submit" value="Submit" id="advice_submit">
+			<input type="reset" value="Reset">
+		</p>
+                
+                <footer id="myFooter"></footer>
+
+                <script src="Script.js"></script>
+	</body>
+	
+</html>

@@ -1,0 +1,145 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 12, 2014, 12:39:50 PM
+    Author     : bonnie
+*/
+
+body {
+       font-family: "Trebuchet MS", Verdana, sans-serif;
+       font-size: 16px;
+       background-color: dimgrey; 
+       color: #696969;
+       padding: 3px;
+}
+
+#content {
+    background-color:#FFE3F1;
+    padding: 1px;
+    padding-left: 35px;
+}
+
+#section {
+    width:250px;
+    float:left;
+    padding:10px;	 	 
+}
+
+h1 {
+       font-family: Georgia, serif;
+       border-bottom: 3px solid #cc9900;
+       color: #996600;
+       font-size: 30px;
+}
+
+table {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, th , td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+th {
+    text-align: left; 
+}
+
+table tr:nth-child(odd) {
+    background-color: #FFE3F1;
+}
+table tr:nth-child(even) {
+    background-color: #FFFFFF;
+}
+
+
+#title {
+    background-color:#FFACD6;
+    color:white;
+    padding: 1px;
+    padding-left: 35px;
+}
+
+#title_center {
+    background-color:#FFACD6;
+    color:white;
+    padding: 1px;
+    padding-left: 35px;
+    text-align: center
+}
+
+#designer{
+    background-color:#FFACD6;
+    color:white;
+    padding-left: 35px;
+}
+
+#nav_right {
+    line-height:30px;
+    background-color:#FFE3F1;
+    height:200px;
+    width:150px;
+    float:right;
+    padding:5px;	      
+}
+
+#nav_top {
+    line-width:30px;
+    background-color:#FFE3F1;
+    height:30px;
+    width:150px;
+    float:top;
+    padding:5px;	      
+}
+
+#nav_bar{
+    background-color: #FFE3F1;
+    padding: 5px;
+    padding-left: 35px;
+}
+
+#section {
+    width:350px;
+    float:left;
+    padding:10px;	 	 
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
+#aside {
+    height:30px;
+    text-align:center;
+}
+
+ul#menu {
+    padding: 0;
+    margin-bottom: 11px;
+}
+
+ul#menu li {
+    display: inline;
+    margin-right: 3px;
+}
+
+ul#menu li a {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #696969;
+    border-radius: 4px 4px 0 0;
+}
+
+ul#menu li a:hover {
+    color: white;
+    background-color: #FFACD6;
+}
